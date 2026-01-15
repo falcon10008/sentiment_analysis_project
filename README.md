@@ -3,7 +3,7 @@
 
 A modern web application for analyzing the sentiment of text using deep learning. Built with Flask, PyTorch, and a beautiful responsive UI.
 
-![Sentiment Analysis App](app/static/images/backgrounD.webp)
+![Sentiment Analysis App](app/static/images/background.webp)
 
 ## 🚀 Live Demo
 
@@ -16,6 +16,7 @@ A modern web application for analyzing the sentiment of text using deep learning
 - **Confidence Scores**: Get confidence levels for each prediction
 - **Modern UI**: Clean, responsive interface with beautiful animations
 - **Real-time Analysis**: Instant results with visual feedback
+- **Keyboard Shortcuts**: Quick actions with Ctrl+Enter (submit) and Esc (clear)
 - **Cross-Platform**: Works on desktop and mobile devices
 - **Deployment Ready**: Configured for deployment on Render
 
@@ -88,6 +89,15 @@ python main.py
 2. Open your browser and navigate to `http://localhost:5000`
 
 3. Enter text in the input field and click "Analyze Sentiment"
+
+### Keyboard Shortcuts
+
+For a better user experience, the application supports the following keyboard shortcuts:
+
+- **Ctrl+Enter** (or **Cmd+Enter** on Mac): Submit the form to analyze sentiment
+- **Esc**: Clear the text input field
+
+These shortcuts work when the textarea is focused, allowing for faster workflow without using the mouse.
 
 ### API Usage
 
